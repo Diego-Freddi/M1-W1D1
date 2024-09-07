@@ -8,19 +8,20 @@ body {
 
 header {
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 0 20px;
 }
 
 header img {
-    width: 250px;
+    width: 200px;
     margin: auto;
+    padding: 10px;
 }
 
 nav {
     margin: 10px 0;
     padding: 15px 0;
     background-color: #fdfbf1;
-    border-top: solid 2px rgb(245, 205, 131);   
+    border-top: solid 1px rgb(245, 205, 131);   
     font-size: 13px; 
     color: #004b4b;
 }
@@ -31,7 +32,7 @@ nav span {
 
 h1 {
     text-align: center;
-    padding: 10px;
+    padding: 30px 10px 30px 10px;
     font-size: xx-large;
 }
 
@@ -43,7 +44,8 @@ section {
 section img {
     width: 100%;
     border-radius: 2%;
-    box-shadow: 3px 3px 20px 0px #9a9898;
+    box-shadow: 5px 5px 8px 0px #b5b4b4c7;
+    margin-top: 20px;
 }
 
 section span {
@@ -56,44 +58,47 @@ section span {
 section div {
     border-left: solid 1px #fed35c;
     padding: 0 12px;
+    margin-bottom: 55px;
 }
 
-.spaziatura {
-    padding-top: 25px;
-    padding-bottom: 15px;
-    font-weight: bold;
-}
-
-/*.spaziatura {
+section div p {
     color: #b21a00;
 }
 
-#fresh {
+section div u {
     color: #0f7777;
 }
 
-#wow {
-    padding: 20px 0;
-}
-
-#make {
-    font-weight: bolder;
-    padding-bottom: 10px;
-}
-*/
-
 h2 {
-    padding: 15px 0;
+    padding: 5px 0 20px;
     border-bottom: solid 1px #bcf1f1;
     font-weight: lighter;
-    padding-top: 50px;
+    margin-bottom: 35px;
+}
+
+.titolo-ingredienti {
+    font-weight: bold;
 }
 
 li {
-    padding: 10px 0;
+    margin-top: 15px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+#titolo-method {
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 footer {
     width: 640px;
     margin: auto;
+    padding: 15px 0;
+}
+
+a {
+    color: #0f7777;
 }
